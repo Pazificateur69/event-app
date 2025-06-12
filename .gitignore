@@ -7,19 +7,110 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled source
+/dist
+/build
+/out
+/target
+/build-ssr
+
+# Dependency directories
 node_modules
-dist
-dist-ssr
-*.local
+.pnp
+.pnp.js
+
+# dotenv environment files
+.env
+.env.*.local
+.env.local
+
+# Parcel-bundler cache
+.cache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Next.js build
+.next
+
+# Nuxt.js build
+.nuxt
+
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
-.env
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Expo files
+.expo
+.expo-shared
+
+# Metro bundler cache
+/metro-cache
+/metro.config.js
+
+# React Native
+ios/build/
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+*.jks
+
+# CocoaPods
+ios/Pods/
+ios/Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Temporary files
+tmp/
+temp/
+
+# Testing
+coverage/
+*.lcov
+
+# Misc
+*.tgz
+*.bak
+*.orig
+*.patch
